@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Nova store</title>
+    
+</head>
+<body>
+    <nav class="Nav">
+        <div class="text-white flex font-bold">
+        <i class="fa fa-shop"></i>
+        <h1>Nova store</h1>
+        </div>
+        <input  class="search" type="text" id="sear" placeholder="serch">
+        <select class="bg-white 
+        " id="select"><option value="all">All</option></select>
+        <div id="dc" class="flex bg-yellow-400 ps-5 m-1 r">
+        <span id="cont" class="text-white">0</span>
+        <i class="fa fa-cart-arrow-down"></i>
+        </div>
+    </nav>
+    <div id="divo" class="devo"></div>
+    <script src="index.js"></script>
+</body>
+</html>
